@@ -42,7 +42,7 @@ function adicionaLinha() {
 
 function atualizaTabela() {
     const corpoTabela = document.querySelector('tbody'); // seleciona a tabela e adiciona linhas com texto
-    corpoTabela.innerHTML - linhas;
+    corpoTabela.innerHTML = linhas;
 }
 
 function atualizaMediaFinal() {
